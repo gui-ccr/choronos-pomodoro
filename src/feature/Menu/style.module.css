@@ -1,0 +1,27 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+.MenuLink {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+.MenuLink :hover {
+  filter: brightness(80%);
+}
+.MenuCard {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
